@@ -1,5 +1,5 @@
 ## Create a random string
-## 
+##
 resource "random_string" "unique" {
   length      = 5
   min_numeric = 5
@@ -42,7 +42,7 @@ resource "azapi_resource" "ai_foundry" {
       # Support both Entra ID and API Key authentication for Cognitive Services account
       disableLocalAuth = false
 
-      # Specifies that this is an AI Foundry resourceyes
+      # Specifies that this is an AI Foundry resource
       allowProjectManagement = true
 
       # Set custom subdomain name for DNS names created for this Foundry resource
